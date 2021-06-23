@@ -1,0 +1,89 @@
+p{
+    font-size:small
+}
+span{
+    font-size:small
+}
+:root{
+    --header-color: rgba(69, 142, 191, .2);
+    --section-color: rgba(23, 47, 64, 0);
+    --footer-color: rgba(46, 95, 128, 1);
+    --icon-hover: rgba(23, 47, 64, 1); ;
+
+}
+.profile-main-container{
+    padding: 70px 40px;
+    background-color: var(--section-color);
+    margin-bottom: 50px;
+    align-items: center;
+}
+.profile-main-container img{
+    width: 50%;
+    /* margin: auto; */
+    padding: auto;
+}
+.profile-main-container .profile-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.grid-container{
+    margin: auto;
+}
+.profile-main-jobs{
+    padding: 0 50px 40px;
+}
+.profile-main-jobs h3{
+    border-bottom: 1px solid var(--footer-color);
+    text-align: center;
+}
+.jobs-main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.profile-main-courses{
+    padding: 0 50px 40px;
+}
+.profile-main-courses h3{
+    border-bottom: 1px solid var(--footer-color);
+    padding-bottom: 35px;
+    text-align: center;
+}
+.courses-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.jobs-container{
+    text-align: center;
+    margin: auto;
+    padding: 5px 5%;
+    border-bottom: 1px dotted var(--footer-color);
+}
+.courses-container{
+    background-color: var(--header-color);
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid var(--footer-color);
+    padding: 15px 5%;
+    margin: 5px;
+}
+@media (max-width: 900px){
+    .courses-main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    .courses-container{
+    background-color: var(--header-color);
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid var(--footer-color);
+    /* padding: 15px 5%;
+    margin: 5px; */
+    }
+    .jobs-container{
+    text-align: center;
+    margin: auto;
+    padding: 5px 0;
+    border-bottom: 1px dotted var(--footer-color);
+    }
+}
