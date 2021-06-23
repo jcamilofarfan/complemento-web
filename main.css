@@ -13,15 +13,11 @@
 .grid-container{
     margin: auto;
 }
-.profile-main-jobs h3{
-    border-bottom: 1px solid var(--footer-color);
-    text-align: center;
-}
 .jobs-main-container{
     display: grid;
     grid-template-columns: 1fr;
 }
-.profile-main-courses h3{
+h3{
     border-bottom: 1px solid var(--footer-color);
     text-align: center;
 }
