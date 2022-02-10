@@ -3,7 +3,7 @@ const titleHeader = document.querySelector("div.profile-main-container div.resum
 const sectionCourses = document.querySelector("div div.courses-main-container");
 const sectionJobs = document.querySelector("div div.jobs-main-container");
 async function obtenerData(){
-    const datos = await fetch("https://cache1.phantombooster.com/pzuhC3LNq4M/IdxH8QXujr7vApwc6HP4qQ/result.json");
+    const datos = await fetch("https://cache1.phantombooster.com/pzuhC3LNq4M/tP6uZr2e4K1CGAjZ7pxw2A/result.json");
     const datosJson = datos.json();
     return datosJson;
 }
