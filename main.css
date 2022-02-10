@@ -38,6 +38,12 @@ h3{
     padding: 15px;
     margin: 5px;
 }
+.count-courses{
+    display: block;
+    font-size: 1.5em;
+    color: var(--footer-color);
+    text-align: center;
+}
 @media (max-width: 900px){
     .courses-main-container{
     grid-template-columns: 1fr;
